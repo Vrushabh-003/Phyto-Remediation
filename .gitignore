@@ -1,0 +1,13 @@
+# Frontend dependencies
+frontend/node_modules
+frontend/dist
+.DS_Store
+
+# Backend dependencies (Python)
+backend/__pycache__/
+backend/venv/
+backend/*.pyc
+
+# IDE configuration files
+.vscode/
+.idea/
