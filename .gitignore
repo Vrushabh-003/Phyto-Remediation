@@ -8,6 +8,56 @@ backend/__pycache__/
 backend/venv/
 backend/*.pyc
 
+# Secret files - DO NOT UPLOAD
+backend/.env
+
 # IDE configuration files
 .vscode/
 .idea/
+
+# Node.js/React frontend dependencies and build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Python backend dependencies and cache
+backend/__pycache__/
+backend/venv/
+backend/*.pyc
+
+# Model artifacts—if reproducible, exclude from Git (otherwise, remove if you want version control)
+backend/*.joblib
+
+# Python/React environment variables and secrets
+backend/.env
+frontend/.env
+
+# IDE config files
+.vscode/
+.idea/
+
+# Database dumps and local caches
+*.sqlite
+*.db
+*.bak
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous files
+*.tmp
+*.swp
+*.swo
+*.swn
+
+# Optional: coverage, test, and debug logs
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: Place any auto-generated images if not needed for source control
+*.jpg
+*.png
